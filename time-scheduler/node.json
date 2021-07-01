@@ -1,7 +1,7 @@
 {
     "name": "Plugin: Time Scheduler",
     "options": [{
-        "title": "Scroller",
+        "title": "Time Scheduler",
         "type": "section"
     }, {
         "title": "Font",
