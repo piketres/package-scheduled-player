@@ -105,7 +105,7 @@ local function draw_scroller(x, y, w, h)
             a = math.min(1, 1-math.sin(sys.now()*10)) * a
         end
         local text_width = font:write(
-            x, y+4, item.text, h-8, 
+            x, y+4, item.text, h-8,
             item.color.r, item.color.g, item.color.b, a
         )
         x = x + text_width
